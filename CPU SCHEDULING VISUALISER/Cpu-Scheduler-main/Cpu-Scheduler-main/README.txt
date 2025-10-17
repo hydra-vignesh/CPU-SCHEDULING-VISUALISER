@@ -1,11 +1,17 @@
-> Why do I have a folder named ".vercel" in my project?
-The ".vercel" folder is created when you link a directory to a Vercel project.
+CPU Scheduling Visualizer
+A sleek, interactive web app to visualize classic CPU scheduling algorithms — built using JavaScript, HTML, and CSS.
+It helps students and enthusiasts understand how scheduling works through dynamic visualizations and real-time metrics.
 
-> What does the "project.json" file contain?
-The "project.json" file contains:
-- The ID of the Vercel project that you linked ("projectId")
-- The ID of the user or team your Vercel project is owned by ("orgId")
+🚀 Features
+⚙️ Supports major algorithms: FCFS, SJF (Preemptive & Non-Preemptive), Round Robin, and Priority Scheduling
+📊 Dynamic Gantt Chart generation for clear process visualization
+⏱️ Calculates and displays Waiting Time, Turnaround Time, and Average Times automatically
+💡 Clean, modern UI with smooth animations and responsive design
 
-> Should I commit the ".vercel" folder?
-No, you should not share the ".vercel" folder with anyone.
-Upon creation, it will be automatically added to your ".gitignore" file.
+🔄 Interactive controls to add processes, change burst times, and adjust quantum values
+🧩 Tech Stack
+Frontend: HTML, CSS, JavaScript (Vanilla or React — mention if applicable)
+Design: Modern CSS styling (Flexbox/Grid, transitions, and minimalistic theme)
+
+💻 Use Case
+Perfect for students, educators, and developers learning or teaching Operating System concepts like process scheduling and CPU management.
